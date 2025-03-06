@@ -1,63 +1,57 @@
-Todo Lists
+
+# Todo Lists
 
 Todo Lists adalah aplikasi berbasis Vue 3 yang menggunakan Pinia sebagai state management, Tailwind CSS untuk styling, dan Vite sebagai build tool. Aplikasi ini juga menggunakan Tiptap untuk rich text editing.
 
-🚀 Fitur Utama
 
-Manajemen Todo: CRUD Todo dengan state management menggunakan Pinia.
 
-Editor Teks Kaya (Rich Text Editor): Menggunakan Tiptap untuk mendukung format teks seperti bold, italic, underline, dan lainnya.
 
-Responsif: Menggunakan Tailwind CSS untuk tampilan yang responsif.
+## Features
 
-API Integration: Menggunakan Axios untuk komunikasi dengan backend.
+- Responsive Website
+- Create, Read, Update and Delete Manajemen Todo
+- Rich Text Editor menggunakan TipTap yang mendukung berbagai format Text
+- API Integration Menggunakan Axios
+- JsonPlaceholder API testing
 
-📦 Teknologi yang Digunakan
 
-Vue 3
+## Tech Stack
 
-Pinia
+**Client:** Vue 3, Pinia, TailwindCSS, Vite, Tiptap, Axios
 
-Tailwind CSS
+**Server:** JsonPlaceholder
 
-Vite
 
-Tiptap
+## Run Locally
 
-Axios
+Clone the project
 
-📌 Instalasi
+```bash
+  git clone https://github.com/sanatanadhrm/TodosVue_TechnicalTest.git
+```
 
-Pastikan Anda sudah menginstal Node.js dan npm atau yarn sebelum menjalankan proyek ini.
+Go to the project directory TodosVue_TechnicalTest
 
-# Clone repository ini
-git clone https://github.com/sanatanadhrm/TodosVue_TechnicalTest.git
-cd TodosVue_TechnicalTest
+```bash
+  cd TodosVue_TechnicalTest
+```
 
-# Install dependencies
-npm install  # atau gunakan yarn install
+Install dependencies
 
-▶️ Menjalankan Aplikasi
+```bash
+  npm install
+```
 
-npm run dev  # Menjalankan aplikasi dalam mode development
+Start the server
 
-Aplikasi akan berjalan di http://localhost:5173/ (default Vite).
+```bash
+  npm run dev
+```
 
-Aplikasi menggunakan data api dari jsonplacholder
-"https://jsonplaceholder.typicode.com/posts"
 
-📁 Struktur Proyek
+## Demo
+![Demo](https://github.com/sanatanadhrm/TodosVue_TechnicalTest/blob/main/documentation/2025-03-06-2.gif?raw=true)
 
-├── src
-│   ├── components  # Komponen Vue
-│   ├── store       # State management dengan Pinia
-│   ├── lib         # helper tambahan
-│   ├── assets      # File statis (ikon, gambar, dll.)
-│   ├── app.vue     # Halaman utama
-│   ├── main.js     # Entry point aplikasi
-├── public          # File publik
-├── package.json    # Dependencies dan scripts
-├── vite.config.js  # Konfigurasi Vite
-└── tailwind.config.js # Konfigurasi Tailwind CSS
+![Demo](https://github.com/sanatanadhrm/TodosVue_TechnicalTest/blob/main/documentation/2025-03-06.gif?raw=true)
 
-Dibuat dengan menggunakan Vue 3 & Vite
+
